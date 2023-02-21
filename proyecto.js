@@ -1,5 +1,5 @@
 
-const prompt=require("prompt-sync")({sigint:true}); 
+//const prompt=require("prompt-sync")({sigint:true}); 
 // Definimos las constantes para los recargos por edad
 const recargo1 = 0.10; // 10%
 const recargo2 = 0.20; // 20%
@@ -55,12 +55,12 @@ if (tieneHijos==true) {
 let totalRecargos = recargoAsegurado + recargoConyuge + recargoHijos;
 
 //salida del codigo
-alert("total recargo Asegurado: " + (100 *recargoAsegurado.toFixed(2)) + "%\n", "total recargo Conyugue: " + (100 * recargoConyuge.toFixed(2))+ "%\n", "total recargo hijos: " + (100 * recargoHijos.toFixed(2)) + "%\n", "Recargo Total: " + (100 * totalRecargos.toFixed(2)) + "%");
-//alert("total recargo Conyugue: " + (100 * recargoConyuge.toFixed(2))+ "%");
-//alert("total recargo hijos: " + (100 * recargoHijos.toFixed(2)) + "%");
+alert("total recargo Asegurado: " + (100 *recargoAsegurado.toFixed(2)) + "%\n");
+alert("total recargo Conyugue: " + (100 * recargoConyuge.toFixed(2))+ "%");
+alert("total recargo hijos: " + (100 * recargoHijos.toFixed(2)) + "%");
 
 
-//alert("Recargo Total: " + (100 * totalRecargos.toFixed(2)) + "%");
+alert("Recargo Total: " + (100 * totalRecargos.toFixed(2)) + "%");
 
 let totalCotizacion = precioBase + (precioBase * totalRecargos);
 
