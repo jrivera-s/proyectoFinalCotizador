@@ -60,4 +60,4 @@ console.log("Recargo Total: " + (100 * totalRecargos.toFixed(2)) + "%");
 
 let totalCotizacion = precioBase + (precioBase * totalRecargos);
 
-console.log("total cotización: " + totalCotizacion.toFixed(2) )
+console.log("total cotización: " + "Q." + totalCotizacion.toFixed(2) );
