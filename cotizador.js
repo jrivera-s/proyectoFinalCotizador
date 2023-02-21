@@ -50,6 +50,7 @@ if (tieneHijos==true) {
    recargoHijos = cantidadHijos * recargo2;
 }
 
+//salida del codigo
 console.log("total recargo Asegurado: " + (100 *recargoAsegurado.toFixed(2)) + "%");
 console.log("total recargo Conyugue: " + (100 * recargoConyuge.toFixed(2))+ "%");
 console.log("total recargo hijos: " + (100 * recargoHijos.toFixed(2)) + "%");
